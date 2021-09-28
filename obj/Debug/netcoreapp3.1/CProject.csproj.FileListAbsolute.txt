@@ -1,0 +1,13 @@
+E:\ITSTEP works\Works\CProject\obj\Debug\netcoreapp3.1\CProject.csprojAssemblyReference.cache
+E:\ITSTEP works\Works\CProject\obj\Debug\netcoreapp3.1\CProject.AssemblyInfoInputs.cache
+E:\ITSTEP works\Works\CProject\obj\Debug\netcoreapp3.1\CProject.AssemblyInfo.cs
+E:\ITSTEP works\Works\CProject\obj\Debug\netcoreapp3.1\CProject.csproj.CoreCompileInputs.cache
+E:\ITSTEP works\Works\CProject\bin\Debug\netcoreapp3.1\CProject.exe
+E:\ITSTEP works\Works\CProject\bin\Debug\netcoreapp3.1\CProject.deps.json
+E:\ITSTEP works\Works\CProject\bin\Debug\netcoreapp3.1\CProject.runtimeconfig.json
+E:\ITSTEP works\Works\CProject\bin\Debug\netcoreapp3.1\CProject.runtimeconfig.dev.json
+E:\ITSTEP works\Works\CProject\bin\Debug\netcoreapp3.1\CProject.dll
+E:\ITSTEP works\Works\CProject\bin\Debug\netcoreapp3.1\CProject.pdb
+E:\ITSTEP works\Works\CProject\obj\Debug\netcoreapp3.1\CProject.dll
+E:\ITSTEP works\Works\CProject\obj\Debug\netcoreapp3.1\CProject.pdb
+E:\ITSTEP works\Works\CProject\obj\Debug\netcoreapp3.1\CProject.genruntimeconfig.cache
