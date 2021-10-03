@@ -5,10 +5,10 @@ using System;
     {
         short electric_power;
 
-        C_AirConditioner() {
+        AirConditioner() {
             this.electric_power = 1;
         }
-        C_AirConditioner(short electric_power) {
+        AirConditioner(short electric_power) {
             this.electric_power = electric_power;
         }
         
