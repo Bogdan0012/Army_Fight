@@ -9,11 +9,18 @@ namespace CProject
             User user = new User();
             user.search();
             
-            Controller controller = new Controller();
-            if (controller.ControllerCheck() == 0) return 0;
-            
-            AirConditioner conditioner = new AirConditioner();
-            if (conditioner.ElectricityCheck() == 0) return 0;
+            Controller controller = new Controller(1);
+            if (controller.ControllerCheck() == 0){
+                Console.WriteLine("User is not find controller."); return;
+            }
+            else
+                Console.WriteLine("User find controller,");
+            AirConditioner conditioner = new AirConditioner(1);
+            if (conditioner.ElectricityCheck() == 0){
+                Console.WriteLine("No power supply."); return;
+            }
+            else
+                Console.WriteLine("Power supply is normal,");
             conditioner.ON();
             
             Temperature obj = new Temperature();

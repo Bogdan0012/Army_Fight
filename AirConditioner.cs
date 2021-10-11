@@ -5,20 +5,16 @@ using System;
     {
         short electric_power;
 
-        AirConditioner() {
+        public AirConditioner() {
             this.electric_power = 1;
         }
-        AirConditioner(short electric_power) {
+        public AirConditioner(short electric_power) {
             this.electric_power = electric_power;
         }
         
         public short ElectricityCheck() {
-            if (electric_power > 0){
-                Console.WriteLine("Power supply is normal,");
-            }
-            else{ 
-                Console.WriteLine("No power supply."); return 0;
-            }
+            if (electric_power > 0) return 1;
+            else  return 0;
         }
         
         public void ON() {

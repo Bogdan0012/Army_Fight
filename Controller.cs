@@ -5,20 +5,16 @@ using System;
     {
         short controller;
 
-        Controller() {
+        public Controller() {
             this.controller = 1;
         }
-        Controller(short controller) {
+        public Controller(short controller) {
             this.controller = controller;
         }
         
         public short ControllerCheck() {
-            if (this.controller > 0){
-                Console.WriteLine("User find controller,");
-            }
-            else{ 
-                Console.WriteLine("User is not find controller."); return 0;
-            }
+            if (this.controller > 0) return 1;
+            else  return 0;
         }
     }
 }
